@@ -11,7 +11,6 @@ import galleryImg2 from "figma:asset/86a4a65f83ef14aac8c61a11378e9cdd632c0706.pn
 import galleryImg3 from "figma:asset/198e6c814dbc1f1bdd61ffb7d1705e836acd1c2e.png";
 import galleryImg5 from "figma:asset/442b4396b3ac8b5de44e87ee9638ae20a3a255af.png";
 import galleryImg4 from "figma:asset/7e671436f93b2a6b8aaa2b6b356a924445538fe2.png";
-import travelingImg from "figma:asset/a3c1e8d5f4b2c7a9e0d6f3b8c5a2e7d4f1b9c6a3.png";
 import travelingImg2 from "figma:asset/3810602a23ced2619a1d3bdbbf4c978c8dacf4bf.png";
 import photographyImg from "figma:asset/537f0c5f04d083a440cb6a6d180463c0db4cb91d.png";
 import coffeeImg from "figma:asset/eb4bfa8121bfc702ba2ca1c7f45125ac20e83d0c.png";
