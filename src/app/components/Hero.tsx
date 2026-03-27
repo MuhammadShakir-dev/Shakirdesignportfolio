@@ -1,28 +1,30 @@
 import { motion } from "motion/react";
 import { ArrowRight, Calendar } from "lucide-react";
-import imgSketch from "figma:asset/0d9230051a3f3b62c150f8586d50247da03281bb.png";
-import imgFramer from "figma:asset/1253049cc24244f0e092bc0f3ee7f650515bc9ed.png";
-import imgWebflow from "figma:asset/ee567fb8cbe89fc29a99dddbb405739d72aac529.png";
-import imgZapier from "figma:asset/c1dd94924194281a2cea012f5dfef7f6d58a799c.png";
-import imgRealityComposer from "figma:asset/72ee0c7d47bda910cca59fa484d03b9bb78885a3.png";
-import imgCoda from "figma:asset/f4ead58cc3e4de001c3fc8388d9760a3c423b4cd.png";
-import imgGithub from "figma:asset/47e07696b3dd22cd7a07cffcc86764512e70c754.png";
-import imgFigma from "figma:asset/f946ddfa45d9677818bceeb137033eb5e288a650.png";
-import imgSlack from "figma:asset/671e5cd3e75dd6899bfc98b8d02c6658752d3769.png";
-import imgNotion from "figma:asset/7cba8b411cda3f2fff265de10be32ba91e7cbe33.png";
-import imgMyPicture1 from "figma:asset/1b1a3d01a47b6597711c5aecaece20ffdc1b5b6c.png";
+import {
+  logoSketch,
+  logoFramer,
+  logoWebflow,
+  logoZapier,
+  logoRealityComposer,
+  logoCoda,
+  logoGithub,
+  logoFigma,
+  logoSlack,
+  logoNotion,
+  shakirHeroPicture,
+} from "../data/images";
 
 const toolLogos = [
-  { src: imgSketch, alt: "Sketch" },
-  { src: imgFramer, alt: "Framer" },
-  { src: imgWebflow, alt: "Webflow" },
-  { src: imgZapier, alt: "Zapier" },
-  { src: imgRealityComposer, alt: "Reality Composer" },
-  { src: imgCoda, alt: "Coda", crop: true },
-  { src: imgGithub, alt: "GitHub" },
-  { src: imgFigma, alt: "Figma", scale: 1.8 },
-  { src: imgSlack, alt: "Slack" },
-  { src: imgNotion, alt: "Notion", crop: true },
+  { src: logoSketch, alt: "Sketch" },
+  { src: logoFramer, alt: "Framer" },
+  { src: logoWebflow, alt: "Webflow" },
+  { src: logoZapier, alt: "Zapier" },
+  { src: logoRealityComposer, alt: "Reality Composer" },
+  { src: logoCoda, alt: "Coda", crop: true },
+  { src: logoGithub, alt: "GitHub" },
+  { src: logoFigma, alt: "Figma", scale: 1.8 },
+  { src: logoSlack, alt: "Slack" },
+  { src: logoNotion, alt: "Notion", crop: true },
 ];
 
 export function Hero() {
@@ -43,7 +45,7 @@ export function Hero() {
           <span className="inline-block mx-3 align-middle relative -top-1">
             <span className="inline-block w-12 h-16 md:w-16 md:h-22 bg-[#9FE870]/40 rounded-[2rem] overflow-hidden relative">
               <img
-                src={imgMyPicture1}
+                src={shakirHeroPicture}
                 alt="Shakir"
                 className="absolute w-[120%] h-[95%] left-[-10%] bottom-0 max-w-none object-cover object-top"
               />

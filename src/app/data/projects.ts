@@ -1,13 +1,14 @@
-import paysenseImage from "figma:asset/ba2dcb5373427a4a80f0bdb565f79b1bba700f43.png";
-import paysenseGallery1 from "figma:asset/1eb9c027152079e106e3c2b836fe85b58f923097.png";
-import paysenseGallery2 from "figma:asset/280de1777226857134704b447614fd43e5623889.png";
-import paysenseGallery3 from "figma:asset/b3d814a6f236aff534fc6235ae5713d30fbfc87a.png";
-
-import productStudioImage from "figma:asset/9eb2e3d9ad05fed2db7b4793d598ba39763df66b.png";
-import productStudioGallery1 from "figma:asset/085d86349715d6a6bac6ec4a1287479f3c4e1a66.png";
-import productStudioGallery2 from "figma:asset/db37b507aa0adff86e59a75e43e0d13e61253c61.png";
-import productStudioGallery3 from "figma:asset/9f661f075ee11583cb99aeb76c747fc281cf1a94.png";
-import productStudioGallery4 from "figma:asset/33510021271e942f9516f31239cc7a6eb1e0bc14.png";
+import {
+  paysenseImage,
+  paysenseGallery1,
+  paysenseGallery2,
+  paysenseGallery3,
+  productStudioImage,
+  productStudioGallery1,
+  productStudioGallery2,
+  productStudioGallery3,
+  productStudioGallery4,
+} from "./images";
 
 export interface Project {
   slug: string;

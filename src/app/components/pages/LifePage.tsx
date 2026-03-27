@@ -1,20 +1,22 @@
-import { motion } from "motion/react";
-import { ArrowLeft, MapPin, Music, Camera, BookOpen, Coffee, Plane, Heart } from "lucide-react";
+import { ImageWithFallback } from "../figma/ImageWithFallback";
+import {
+  shakirPhoto,
+  galleryImg1,
+  galleryImg2,
+  galleryImg3,
+  galleryImg4,
+  galleryImg5,
+  travelingImg2,
+  photographyImg,
+  coffeeImg,
+  readingImg,
+} from "../../data/images";
 import { useNavigate } from "react-router";
 import { useEffect } from "react";
 import { Header } from "../Header";
 import { Footer } from "../Footer";
-import { ImageWithFallback } from "../figma/ImageWithFallback";
-import shakirPhoto from "figma:asset/10da6708c61a4fe2f9da1b89d58e921f29c7877b.png";
-import galleryImg1 from "figma:asset/b00d5080893f0dda6392e673d267fa2df4d4988d.png";
-import galleryImg2 from "figma:asset/86a4a65f83ef14aac8c61a11378e9cdd632c0706.png";
-import galleryImg3 from "figma:asset/198e6c814dbc1f1bdd61ffb7d1705e836acd1c2e.png";
-import galleryImg5 from "figma:asset/442b4396b3ac8b5de44e87ee9638ae20a3a255af.png";
-import galleryImg4 from "figma:asset/7e671436f93b2a6b8aaa2b6b356a924445538fe2.png";
-import travelingImg2 from "figma:asset/3810602a23ced2619a1d3bdbbf4c978c8dacf4bf.png";
-import photographyImg from "figma:asset/537f0c5f04d083a440cb6a6d180463c0db4cb91d.png";
-import coffeeImg from "figma:asset/eb4bfa8121bfc702ba2ca1c7f45125ac20e83d0c.png";
-import readingImg from "figma:asset/77174144a32e78d7f7dacc3c80f96258d9633a43.png";
+import { motion } from "motion/react";
+import { ArrowLeft, MapPin, Music, Camera, BookOpen, Coffee, Plane, Heart } from "lucide-react";
 
 const fadeUp = {
   initial: { opacity: 0, y: 30 },

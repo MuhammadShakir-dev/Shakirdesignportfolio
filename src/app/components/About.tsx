@@ -3,7 +3,7 @@ import { ArrowRight, Figma, Github, Globe, Code2, Triangle, FramerIcon } from "l
 import { Link } from "react-router";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
-import shakirPhoto from "figma:asset/10da6708c61a4fe2f9da1b89d58e921f29c7877b.png";
+import { shakirPhoto } from "../data/images";
 
 const tools = [
   { icon: Figma, label: "Figma" },
